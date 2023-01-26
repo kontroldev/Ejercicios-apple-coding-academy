@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='3.1.3 Inferencia de tipos'/>
+        <page name='3.1.4 Tipos por valor y por referencia'/>
+        <page name='3.1.5 Tipos de datos no vacios'/>
+        <page name='3.1.6 Alias de tipos'/>
+        <page name='3.2.1 Operadores de Asignacion'/>
+        <page name='3.2.2 Operadores comparativos'/>
+        <page name='3.2.3 Operadores logicos'/>
+        <page name='3.2.4 Operadores de rango'/>
+        <page name='3.2.5 Valores aleatorios'/>
+        <page name='3.3.1 Conceptos basicos de ambito'/>
+        <page name='3.3.2 Condiciones con if y else'/>
+        <page name='3.3.3 Switch sentencias case'/>
+        <page name='3.3.4 Bucles for in'/>
+        <page name='3.3.5 Bucles While y repeat while'/>
+        <page name='3.3.6 Control de transferencia y etiquetas'/>
+        <page name='3.3.6 (2)Control de transferencia y etiquetas'/>
+        <page name='3.4.1 Concepto de opcionales'/>
+        <page name='3.4.2 Enlaces opcionales'/>
+        <page name='3.4.3 Controles de flujos de opcionales.  GUARD'/>
+        <page name='3.4.4 Operador de coalescencia nula'/>
+        <page name='3.5.2 Interpolacion'/>
+        <page name='3.5.3 Concatenando'/>
+        <page name='3.5.4 Contando y buscando'/>
+        <page name='3.5.5. uso de subcadenas'/>
+        <page name='3.5.5 Metodos de ayuda en cadenas'/>
+    </pages>
+</playground>
