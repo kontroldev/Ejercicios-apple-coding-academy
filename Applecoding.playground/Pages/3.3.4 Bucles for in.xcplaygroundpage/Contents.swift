@@ -7,7 +7,7 @@ for indice in 1...10 {
     }
 }
 // Otra manbera de hacerlo y mas eficiente
-for indice in 1...10 where indice % 2 == 0  { //for _ in 1...10  Placeholder o "hueco"
+for indice in 1...10 where indice % 2 == 0  { //for _ in Placeholder o "hueco"
     print("Es par")
     
     

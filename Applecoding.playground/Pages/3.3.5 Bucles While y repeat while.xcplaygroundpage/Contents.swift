@@ -20,6 +20,7 @@ print("Buscando el \(acierto2)")
 
 while acierto2 != valor2 {
     valor2 = Int.random(in: 1...20)
+    //valor2 = 22     <---Vigilar con los bucles infinitos
     print("Ha salido el valor \(valor2)")
 }
 

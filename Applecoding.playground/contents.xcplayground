@@ -21,10 +21,10 @@
         <page name='3.4.2 Enlaces opcionales'/>
         <page name='3.4.3 Controles de flujos de opcionales.  GUARD'/>
         <page name='3.4.4 Operador de coalescencia nula'/>
-        <page name='3.5.2 Interpolacion'/>
+        <page name='3.5.2 Interpolacion de cadenas'/>
         <page name='3.5.3 Concatenando'/>
         <page name='3.5.4 Contando y buscando'/>
         <page name='3.5.5. uso de subcadenas'/>
-        <page name='3.5.5 Metodos de ayuda en cadenas'/>
+        <page name='3.5.5\2  Metodos de ayuda en cadenas'/>
     </pages>
 </playground>

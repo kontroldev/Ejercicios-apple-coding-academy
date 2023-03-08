@@ -14,11 +14,11 @@ case 10: print("Matricula")
 default: print("No se evalua")
 }
 
-//Sentencias case atraves de rangos
-let temperatura = 26
+//Sentencias case a traves de rangos
+let temperatura = 20
 switch temperatura {
 case 40...: print("Me abraso")
-case 30,31,32,33,34,35,36,37,38,39,40: //Tambien asi 30...40 Operador de rango
+case 30,31,32,33,34,35,36,37,38,39,40: //Tambien se puede hacer asi 30...40 Operador de rango(mas recomendado)
     print("Tengo calor")
 case 20...30: print("Calorcito")
 case 10...20: print("Fresquito")

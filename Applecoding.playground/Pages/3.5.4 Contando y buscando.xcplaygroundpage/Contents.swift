@@ -7,7 +7,8 @@ var cadenaVacia = String()
 stringVacio.count   // 👈 me dice el numero de caracteres que hay en la cadena
 stringVacio.isEmpty  // 👈 me dice si la cadena esta vacia.
 
-stringVacio += "123"  // EJEMPLOS!!
+//EJEMPLOS
+stringVacio += "123"  // Le podemos poner un valor a una cadena.
 stringVacio.count
 
 
@@ -28,8 +29,8 @@ var inicio = "Erase una vez un pais lejano, un joven principe que vivia en un re
 inicio.contains("lejano")
 inicio.contains("anillo")
 
-if let rango = inicio.range(of: "pais"){
+if let rango = inicio.range(of: "pais"){   // Esto seria un Sub strip( Que veremos mas adelante.
     print(inicio[rango])
-    _ = inicio[rango]
+    let sub = inicio[rango]
 }
 

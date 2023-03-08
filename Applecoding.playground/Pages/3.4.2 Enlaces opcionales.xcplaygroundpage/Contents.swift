@@ -2,7 +2,7 @@ import Foundation
 
 var opcional: String?
 
-opcional = "Hola"
+//opcional = "Hola"
 
 if let constante = opcional {
     print(constante)
@@ -29,7 +29,7 @@ if let ab = ab {
 
 // hecho de otra manera. ⬇️
 
-if let ab = ab, let ac = ac, let ad = ad, ad != 0, let ae = ae {  //Haciendo siendo una condicion mas despues del desampequetado!!
+if let ab = ab, let ac = ac, let ad = ad, ad != 0, let ae = ae {  //Haciendo una condicion mas, despues del desampequetado!!    Todos los valores tienes que ser de verdadero exclusivo
     print(ab, ac, ad, ae)
 }
 

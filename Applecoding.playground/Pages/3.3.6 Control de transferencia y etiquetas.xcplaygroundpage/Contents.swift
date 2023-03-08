@@ -13,7 +13,7 @@ for indice in 1...20{
 
 //Esto es reiniciar un bucle con CONTINUE ⬇️
 let dato1 =  Int(arc4random() % 200)
-let dato2 =  Int(arc4random() % 200)
+let dato2 =  Int(arc4random() % 200) 
 let dato3 =  Int(arc4random() % 200)
 
 for i in 0...199 {
@@ -35,11 +35,10 @@ switch x {
 case 0, 1, 2, 3, 4, 5:
     print("Entre 0 y 5")
 case 6:
-    fallthrough // ⬅️
+    fallthrough //  Pasa al siguente Case ⬅️
 case 7:
     print("6 o 7")
 default:
     print("Mayor que 7")
 }
-
 
