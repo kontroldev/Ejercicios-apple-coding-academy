@@ -25,6 +25,8 @@
         <page name='3.5.3 Concatenando'/>
         <page name='3.5.4 Contando y buscando'/>
         <page name='3.5.5. uso de subcadenas'/>
-        <page name='3.5.5\2  Metodos de ayuda en cadenas'/>
+        <page name='3.5.6 uso de caracteres Unicode y Emoji'/>
+        <page name='3.5.7 Metodos de ayuda en cadenas'/>
+        <page name='3.5.8 Cadenas en bruto y expresiones regulares'/>
     </pages>
 </playground>
