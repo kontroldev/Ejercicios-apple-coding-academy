@@ -28,5 +28,9 @@
         <page name='3.5.6 uso de caracteres Unicode y Emoji'/>
         <page name='3.5.7 Metodos de ayuda en cadenas'/>
         <page name='3.5.8 Cadenas en bruto y expresiones regulares'/>
+        <page name='3.6.2 Arrays, creando e inicializando'/>
+        <page name='3.6.3 - 3.6.4 Añadiendo - quitando elementos a una Array'/>
+        <page name='3.6.5 Buscando y enumerendo'/>
+        <page name='3.6.6 Metodo de auxiliares con ARRAYS'/>
     </pages>
 </playground>
