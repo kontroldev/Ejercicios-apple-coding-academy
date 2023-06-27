@@ -4,9 +4,9 @@ let frase = "Hay que tener en cuenta \"alguna cosas\"." //Para poner comillas de
 let fraseRaw = #"Hay que tener en cuenta "alguna cosas""#  //Esto seria una cadenas en bruto o RAW, poniendo antes de la cadena unas almuadillas al principio y al final de la misma.
 
 let nombre = "Antonio"
-let interpolar = #"Su nombre es "\#(nombre)""#  //Al poner las almuedillas como el ejemplo anterior y una barra invertida como sale en el ejemplo de una constante, interpolamos (nombre), respetando entre comillas.
+let interpolar = #"Su nombre es "\#(nombre)""#  //Al poner las almuadillas como el ejemplo anterior y una barra invertida como sale en el ejemplo de una constante, interpolamos (nombre), respetando entre comillas.
 
-let cadena = ##"Lwe puso un simbolo de # asu partitura"## //Y si queremos poner una almuedilla (#) en una caden, solo con poner al principio y al final de esta doble almuadillas.
+let cadena = ##"Le puso un simbolo de # asu partitura"## //Y si queremos poner una almuedilla (#) en una caden, solo con poner al principio y al final de esta doble almuadillas.
 
 //CADENAS MULTILINEA⬇️
 let cadenaMultilinea = """
@@ -29,7 +29,6 @@ let emailRegex2 = #"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,64}"#
 
 
 //BUSQUEDA DE UN RANGO DENTRO DE UNA SUBCADENA
-
 let email = "paquito@flores.net"
 let emailNo = "antonio#pepe"
 

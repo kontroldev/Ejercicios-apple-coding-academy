@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='3.1.3 Inferencia de tipos'/>
         <page name='3.1.4 Tipos por valor y por referencia'/>
@@ -32,5 +32,8 @@
         <page name='3.6.3 - 3.6.4 Añadiendo - quitando elementos a una Array'/>
         <page name='3.6.5 Buscando y enumerendo'/>
         <page name='3.6.6 Metodo de auxiliares con ARRAYS'/>
+        <page name='3.6.7 Arrays de mas dimensiones'/>
+        <page name='3.6.8 Novedades ARRAY en swift 5.1'/>
+        <page name='3.7.2 Conceptos basicos, Diccionario.'/>
     </pages>
 </playground>

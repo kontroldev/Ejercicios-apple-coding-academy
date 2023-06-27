@@ -21,7 +21,7 @@ compositores
 for (indice , compositor) in compositores.sorted().reversed().enumerated() {
     print(indice, compositor)
 }
-
+compositores
 
 /*NOTAS ⬆️
  Explicacion ultima funcion:
