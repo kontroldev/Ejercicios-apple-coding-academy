@@ -35,5 +35,7 @@
         <page name='3.6.7 Arrays de mas dimensiones'/>
         <page name='3.6.8 Novedades ARRAY en swift 5.1'/>
         <page name='3.7.2 Conceptos basicos, Diccionario.'/>
+        <page name='3.4.4 Diccionrario - añadiendo, modificando, quitando'/>
+        <page name='3.7.5 Diccionario - iterando sobre un diccionario'/>
     </pages>
 </playground>
