@@ -1,7 +1,4 @@
-import Foundation
-import CoreGraphics
-import Darwin
-
+import UIKit 
 // DATOS POR VALOR
 
 var a = 10

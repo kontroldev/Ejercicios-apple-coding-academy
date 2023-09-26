@@ -37,5 +37,11 @@
         <page name='3.7.2 Conceptos basicos, Diccionario.'/>
         <page name='3.4.4 Diccionrario - añadiendo, modificando, quitando'/>
         <page name='3.7.5 Diccionario - iterando sobre un diccionario'/>
+        <page name='3.7.6 Diccionarios - Arrays de ciccionarios'/>
+        <page name='3.7.7 Novedades diccionario Swift5.1'/>
+        <page name='3.8.2 Inicializando los SET'/>
+        <page name='3.8.3 Contruyendo SET'/>
+        <page name='3.8.4 Comparando SET'/>
+        <page name='3.9.2 Conversion de tipos'/>
     </pages>
 </playground>
