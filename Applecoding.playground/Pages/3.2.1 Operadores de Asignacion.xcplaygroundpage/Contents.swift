@@ -13,6 +13,7 @@ c * a
 a / b
 d / e
 
+// ⬇️ REGLA: No se puede usar un operador aritmetico entre tipo de daos diferentes, aunque estos sean numericos.
 Double(a) / e
 
 let c1 = "Cadena"
@@ -21,10 +22,9 @@ let c2 = "Otra"
 c1 + c2
 
 a % b
-d.truncatingRemainder(dividingBy: e)  //Cuando un tipo de datos es con decimales.
+d.truncatingRemainder(dividingBy: e)  //Cuando un tipo de datos con precision decimal.
 
-//Operadores de acumulacion ⬇️
-
+// OPERADORES DE ACUMULACION ⬇️
 var f = 2
 f += 2  //es lo mismo que hacer: f = f + 2
 f -= 2
@@ -33,9 +33,6 @@ f /= 2
 
 let g = -f
 -g 
-
-
-
 
  /*
   Operador de asignacion

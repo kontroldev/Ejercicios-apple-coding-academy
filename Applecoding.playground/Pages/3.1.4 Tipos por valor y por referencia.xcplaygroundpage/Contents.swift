@@ -1,9 +1,10 @@
 import UIKit 
 // DATOS POR VALOR
 
-var a = 10
-var b = a
-b = 15
+var a = 10  // Esto es datos por valor.
+var b = a  // Esto es datos por referencia.
+
+b = 15  // Esto es copia por valor.
 
 a
 b
