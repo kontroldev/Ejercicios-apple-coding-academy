@@ -1,16 +1,17 @@
 import UIKit 
-// DATOS POR VALOR
 
-var a = 10  // Esto es datos por valor.
-var b = a  // Esto es datos por referencia.
+// datos por valor.
+var a = 10
 
-b = 15  // Esto es copia por valor.
+// datos por referencia.
+var b = a
 
+// copia por valor.
+b = 15
 a
 b
 
- //DATOS POR REFERENCIA
-
+ // datos por referencia
 let c = UILabel(frame: CGRect(x: 0, y: 0, width: 90, height: 100))
 
 c.text = "Etiqueta"
