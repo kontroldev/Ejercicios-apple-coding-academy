@@ -19,7 +19,7 @@
         <page name='3.3.6 (2)Control de transferencia y etiquetas'/>
         <page name='3.4.1 Concepto de opcionales'/>
         <page name='3.4.2 Enlaces opcionales'/>
-        <page name='3.4.3 Controles de flujos de opcionales.  GUARD'/>
+        <page name='3.4.3 GUARD'/>
         <page name='3.4.4 Operador de coalescencia nula'/>
         <page name='3.5.2 Interpolacion de cadenas'/>
         <page name='3.5.3 Concatenando'/>

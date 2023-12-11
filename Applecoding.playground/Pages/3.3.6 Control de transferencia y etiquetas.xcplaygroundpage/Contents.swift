@@ -11,6 +11,7 @@ for indice in 1...20{
     }
 }
 
+
 // CONTINUE
 let dato1 =  Int(arc4random() % 200)
 let dato2 =  Int(arc4random() % 200) 
@@ -27,6 +28,7 @@ for i in 0...199 {
     default:()
     }
 }
+
 
 // FALLTHROUGH
 let x = (Int(arc4random()) % 10) + 1
