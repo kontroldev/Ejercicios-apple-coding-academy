@@ -4,17 +4,17 @@ import CoreGraphics
 let cadena = "A long time ago in a galaxy far far away"
 let cadena2 = "One ring to rule them all"
 
-//let subcadena = cadena[3...5] 👈 no se puede hacer asi por que da error.
-
-//Indice inicio final con operador de rango en una cadena
-let inicio = cadena.startIndex
-let final = cadena.endIndex
+//let subcadena = cadena[3...5] 👈 no se puede hacer asi, por que un caracter puede ocupar dos posiciones el siguiente solo una etc etc, que 'long' usaria 3 posiciones y 'time' 4 y nos iguales y tiene un valor `String.Index`
 
 
-//Posicion de rango en una cadena.
+// STRING.INDEX
+let inicio = cadena.startIndex   // `.startIndex`seria la primera posicion del primer caracter de una cadena no vacia
+let final = cadena.endIndex  // si una cadena tuviera 20 posiciones - `.endIndex` seria la posicion 21
 
-let posicion1 = cadena.index(cadena.startIndex, offsetBy: 7)  // Empieza desde la Posicion 7 de la cadena de rango.
-let posicion2 = cadena.index(cadena.startIndex, offsetBy: 14) // Empieza desde la Posicion 14 de la cadena de rango.
+
+// ACCEDIENDO A SUBCADENA POR RANGO DE INDICES DE CADENAS
+let posicion1 = cadena.index(cadena.startIndex, offsetBy: 7)  // Empieza desde la Posicion 7 de la cadena de rango desde el principio.
+let posicion2 = cadena.index(cadena.startIndex, offsetBy: 14) // Empieza desde la Posicion 14 de la cadena de rangodesde el final.
 
 cadena[posicion1...posicion2] // Me muestra la posicion 7 a la 14 ➡️
 cadena2[posicion1...posicion2]
@@ -33,3 +33,8 @@ cadena[...cadena.index(cadena.startIndex, offsetBy: 15)]  //Cadena que empieza d
 
 
 
+
+// INDICE DE PRINCIPIO Y FIN
+
+// TIPO SUBSTRING
+// RANGO DE UN SOLO LADO PARA LAS CADENAS

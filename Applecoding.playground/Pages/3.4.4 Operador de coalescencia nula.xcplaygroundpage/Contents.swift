@@ -19,3 +19,4 @@ var firmaPersonalizada:String?
 
 var firma = firmaPersonalizada ?? firmaDeDefecto  // en este caso si el usuario pone una firma entraria por la firma personalizada de no ser asi entraria por la firma por defecto.
 
+// debemos de tener el mismo dato 👆
