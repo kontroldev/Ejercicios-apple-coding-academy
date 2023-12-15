@@ -8,24 +8,28 @@ let cadena2 = "One ring to rule them all"
 
 
 // STRING.INDEX
-let inicio = cadena.startIndex   // `.startIndex`seria la primera posicion del primer caracter de una cadena no vacia
-let final = cadena.endIndex  // si una cadena tuviera 20 posiciones - `.endIndex` seria la posicion 21
+let inicio = cadena.startIndex   // '.startIndex' seria la primera posicion del primer caracter de una cadena no vacia
+let final = cadena.endIndex  // si una cadena tuviera 20 posiciones - '.endIndex' seria la posicion 21
 
 
 // ACCEDIENDO A SUBCADENA POR RANGO DE INDICES DE CADENAS
-let posicion1 = cadena.index(cadena.startIndex, offsetBy: 7)  // Empieza desde la Posicion 7 de la cadena de rango desde el principio.
-let posicion2 = cadena.index(cadena.startIndex, offsetBy: 14) // Empieza desde la Posicion 14 de la cadena de rangodesde el final.
+let posicion1 = cadena.index(cadena.startIndex, offsetBy: 7)  // Empieza desde la posicion 7 de la cadena de rango desde el principio.
+let posicion2 = cadena.index(cadena.startIndex, offsetBy: 14) // Empieza desde la posicion 14 de la cadena de rango desde el final.
 
 cadena[posicion1...posicion2] // Me muestra la posicion 7 a la 14 ➡️
 cadena2[posicion1...posicion2]
+//  👆 vigilar de optener un indice superior al que tenemos, la App se cerrará.
 
-// Vigilar de optener un indice superior al que tenemos, la App se cerrara.
 
+// INDICE DE PRINCIPIO Y FIN
 let posicion3 = cadena2.index(cadena2.endIndex, offsetBy: -5)  //Al estar en la ultima posicipn de cadena se le resta 5 para entrar en el ranog de subcadenas.
-let subCadena = cadena2[posicion1..<posicion3]   // Rango parcial de cadenas.
 
+// TIPO SUBSTRING
+let subCadena = cadena2[posicion1..<posicion3]   // Rango parcial de cadenas.
 let cadenaFinal = String(subCadena)  // Contructor del tipo String
 
+
+// RANGO DE UN SOLO LADO PARA LAS CADENAS
 cadena[...cadena.index(cadena.endIndex, offsetBy: -10)]  //Se pone -10 por que contamos desde al final a menos 10 con cadena de caracteres.
 cadena[cadena.index(cadena.startIndex, offsetBy: 10)...] //Cadena que me lleva desde la posicion 10 hasta el final.
 cadena[...cadena.index(cadena.startIndex, offsetBy: 15)]  //Cadena que empieza desde el comiendo hasta la posicion 15.
@@ -34,7 +38,7 @@ cadena[...cadena.index(cadena.startIndex, offsetBy: 15)]  //Cadena que empieza d
 
 
 
-// INDICE DE PRINCIPIO Y FIN
 
-// TIPO SUBSTRING
-// RANGO DE UN SOLO LADO PARA LAS CADENAS
+
+
+
