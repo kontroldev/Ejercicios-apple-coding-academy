@@ -5,14 +5,13 @@ var compositores = [String]()
 compositores.append("John Williams")
 compositores += ["Danny Elfman", "James Newton Howard", "Brian Tyler"]
 let nuevos = ["Michael Giacchino", "Alexandre Desplat"]
+
 compositores += nuevos
 compositores[3] = "Alan Silvestri"
 compositores[2...4] = ["Hans Zimmer", "David Arnold", "Patrick Doyle"]
 compositores[2...4] = ["Hans Zimmer", "David Arnold", "Patrick Doyle", "John Powell"]
 compositores.insert("Howard Shore", at: 4)
 compositores.insert(contentsOf: ["Harry Gregson-Williams", "Henry Jackman", "James Horner"], at: 3)
-
-
 
 
 //RANGOS DE UN SOLO LADO CON LOS ARRAYS

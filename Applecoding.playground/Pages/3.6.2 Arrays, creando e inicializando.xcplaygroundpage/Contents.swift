@@ -1,14 +1,13 @@
 import Foundation
 
-// ARRAYS
-// Es una coleccion ordenada del mismo tipo, y cada elemento tiene una posicion.
+// ARRAYS - Es una coleccion ordenada del mismo tipo, y cada elemento tiene una posicion.
 var matrizCadena = ["Uno", "Dos", "Tres", "Cuatro"] // asi podemos declarar un 'ARRAY' - Array de tipo String
 var matrizNumero = [1, 2, 3, 4]                                                     // - Array de tipo Int
 
 var matrizcadenaTipificada:[String] = ["Cinco", "Seis", "Siete"] // Array por inferencia de tipos, cadena String.
 
 
-//COMO ACCEDER A LOS DIFERENTES DE ELEMENTOS ⬇️
+//COMO ACCEDER A LOS DIFERENTES DE ARRAYS ⬇️
 matrizCadena[1]   // le ponemos el indice a la posicion que queremos acceder. - Recordar que empezamos desde la posicion 0. y ojo al acceder alguna posicion que este fuera de rango, ya que no saltara un error.
 matrizNumero[2]
 
@@ -36,7 +35,7 @@ compositores.count  // '.count', cuantas elemento/posiciones tiene un ARRAY ocup
 matrizcadenaTipificada.append("Ocho")  //Esta funcion añadira un elemento nuevo.
 print(matrizcadenaTipificada)
 
-// ⚠️ Tenemos que vigilar (matrizcadenaTipificada) al añadir elementos sea una constante, de lo contrario nos dara error.
+// ⚠️ Tenemos que vigilar (matrizcadenaTipificada) al añadir elementos sea una constante, de lo contrario nos dara error al poder ser un 'let'.
 
 /*NOTA IMPORTANTE
  El Array en Swift es un dato por valor no por referencia(se puede ver en la leccion 3.1.4) no es un objero es un struct*/
