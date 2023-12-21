@@ -29,13 +29,14 @@
         <page name='3.5.7 Metodos de ayuda en cadenas'/>
         <page name='3.5.8 Cadenas en bruto y expresiones regulares'/>
         <page name='3.6.2 Arrays, creando e inicializando'/>
-        <page name='3.6.3 - 3.6.4 Añadiendo - quitando elementos a una Array'/>
+        <page name='3.6.3 Añadiendo elementos a una Array'/>
+        <page name='3.6.4 Quitando elemento ARRAY'/>
         <page name='3.6.5 Buscando y enumerendo'/>
         <page name='3.6.6 Metodo de auxiliares con ARRAYS'/>
         <page name='3.6.7 Arrays de mas dimensiones'/>
         <page name='3.6.8 Novedades ARRAY en swift 5.1'/>
         <page name='3.7.2 Conceptos basicos, Diccionario.'/>
-        <page name='3.4.4 Diccionrario - añadiendo, modificando, quitando'/>
+        <page name='3.7.4 Diccionrario - añadiendo, modificando, quitando'/>
         <page name='3.7.5 Diccionario - iterando sobre un diccionario'/>
         <page name='3.7.6 Diccionarios - Arrays de ciccionarios'/>
         <page name='3.7.7 Novedades diccionario Swift5.1'/>
@@ -43,9 +44,9 @@
         <page name='3.8.3 Contruyendo SET'/>
         <page name='3.8.4 Comparando SET'/>
         <page name='3.9.2 Conversion de tipos'/>
-        <page name='3.9.3 Comprobación de tipo'/>
         <page name='3.10.1 + Tuplas, conceptos'/>
-        <page name='3.10.3 Arrays de tuplas'/>
         <page name='3.10.4 Asignando variables a traves de tuplas'/>
+        <page name='3.10.3 Arrays de tuplas'/>
+        <page name='3.9.3 Comprobación de tipo'/>
     </pages>
 </playground>

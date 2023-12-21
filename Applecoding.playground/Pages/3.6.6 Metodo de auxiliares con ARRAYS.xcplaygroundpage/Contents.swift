@@ -11,11 +11,17 @@ compositores[2...4] = ["Hans Zimmer", "David Arnold", "Patrick Doyle", "John Pow
 compositores.insert("Howard Shore", at: 4)
 compositores.insert(contentsOf: ["Harry Gregson-Williams", "Henry Jackman", "James Horner"], at: 3)
 
+
 //ORDENAR UN ARRAY CON/SIN COPIA
-let compositoresNew = compositores.sorted()  //Ordena alfabeticamente de la ARRAY y NO la modifica
+let compositoresNew = compositores.sorted()  //Ordena alfabeticamente la ARRAY y NO la modifica
 compositores
-compositores.sort()  //Ordena alfabeticamente de la ARRAY y SI la modifica
+
+compositores.sort()  //Ordena alfabeticamente la ARRAY y SI la modifica
 compositores
+/* NOTA:
+    .sorted: crea y devuelve una nueva colección ordenada sin modificar la original. La colección original permanece inalterada.
+    .sort: ordena la colección in situ, modificando la colección original. No devuelve una nueva colección.*/
+
 
 //INTERFACES FLUIDAS.
 for (indice , compositor) in compositores.sorted().reversed().enumerated() {
