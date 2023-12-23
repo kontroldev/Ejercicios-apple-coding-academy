@@ -24,9 +24,12 @@ compositores
 
 
 //INTERFACES FLUIDAS.
-for (indice , compositor) in compositores.sorted().reversed().enumerated() {
+for (indice , compositor) in compositores.sorted().reversed().enumerated() {  // podemos concatenar una llamada dentro de una llamada.
     print(indice, compositor)
 }
+/*compositores.sorted() -> me devuelve un Array ordenado,(una copia de compositores ordenado) y de este resultado .reversed() -> y esto hara que esa copia sea descendente y de este resultado .enumerated() -> me devuelve, 'indice' y 'compositor'
+ Y con esto, hacemos 3 funciones a la vez*/
+
 compositores
 
 /*NOTAS ⬆️

@@ -1,6 +1,7 @@
 import Foundation
 
 // ARRAYS - Es una coleccion ordenada del mismo tipo, y cada elemento tiene una posicion.
+
 var matrizCadena = ["Uno", "Dos", "Tres", "Cuatro"] // asi podemos declarar un 'ARRAY' - Array de tipo String
 var matrizNumero = [1, 2, 3, 4]                                                     // - Array de tipo Int
 
