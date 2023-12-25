@@ -4,9 +4,8 @@ let diccionario = [1977:"A New Hope", 1980:"The Empire Strike back", 1983:"The R
 
 
 //DICCIONARIO DEVUELVE DOS VALORES
-//Esta funcion nos saca todos los valores del diccionario [clave:valor]
 for (año,film) in diccionario {
-    print("La pelicula \(film) se estrenó el año \(año)")
+    print("La pelicula \(film) se estrenó el año \(año)")  //Esta funcion nos saca todos los valores del diccionario [clave:valor]
 }
 
 //SACANDO DATOS DE FORMA INDEPENDIENTE
@@ -40,3 +39,7 @@ for clave in diccionario.keys.sorted() {  // Recordad que .sorted ordena unos va
     print("Pelicula \(diccionario[clave]!)") 
 }
             
+
+
+// USANDO UN WHERE
+// ACCESO A UN ARRAY DE CLAVE/DATOS DENTRO DE UNA PROPIEDAD
