@@ -13,8 +13,8 @@ print(compositores)
 
 // ELIMINAR UN ELEMENTO DE UNA ARRAY
 //compositores.removeLast()  //Elimina el ultimo elemento.
-compositores.removeLast(2) //Elimina los 2 ultimos.
-compositores.removeFirst() //Me elimina el primero.
+compositores.removeLast(2)  //Elimina los 2 ultimos.
+compositores.removeFirst()  //Me elimina el primero.
 compositores.remove(at: 5)  //Me elimina la posicion 5
 
 compositores.removeSubrange (2...4) //Borrar un Rango. Borra la posicion de la 2 a la 4 y me devuelve los valores anteriormente cambiados.

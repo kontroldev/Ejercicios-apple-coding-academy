@@ -29,9 +29,3 @@ let valor = diccionario.removeValue(forKey: "nombre") // Con esto (let valor) ve
 // y si ponemos un clave que no esta en ningun diccionario por ejemplo "nombree", este nos devolvera un igualmente un nil.
 
 
-
-// SUSTITUIR UNA CLAVE
-// USANDO UN UPDATEVALUE
-// BORRANDO UN NIL
-// BORRADO POR FUNCION
-

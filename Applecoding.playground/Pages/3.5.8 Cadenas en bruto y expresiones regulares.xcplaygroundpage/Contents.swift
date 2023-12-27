@@ -19,7 +19,7 @@ cadenas multilíneas
 """  // es poniendo triples comillas para hacer un String multilinea
 
 
-//CADENAS MILTILINEA EN RAW
+//CADENAS MULTILINEA EN RAW
 let multilineaRaw = #"""
 Y también podemos
 hacer "cadenas multilinea"
