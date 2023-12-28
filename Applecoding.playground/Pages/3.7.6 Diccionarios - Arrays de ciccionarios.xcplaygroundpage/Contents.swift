@@ -29,3 +29,5 @@ let dic3:[String:String] = ["Compositor": "Michael Giacchino", "Oscars": "1"]  /
 arrayDiccionario.append(dic3)  // aqui lo añadimos a los otros 2 que ya estan dentro de 'arrayDiccionario?
 
 // este ejercicio era para ver que al añadir otro diccionario y al llamar unaclave en el anterior ejemplo, hay que tener cuidado al ver que posicion de la 'clave' esta para llamarla y no equivocarnos.
+
+// esta ultima funcion sera mas comun trabajar con ellas, en lista de propiedaddes o con archivos json

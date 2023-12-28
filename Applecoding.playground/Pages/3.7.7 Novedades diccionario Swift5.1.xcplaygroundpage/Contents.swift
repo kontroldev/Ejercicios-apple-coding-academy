@@ -3,11 +3,13 @@ import Foundation
 let diccionario1 = ["Star Wars": 1977, "The Empire Strike Back": 1980, "The Return of the Jedi": 1983, "The Phantom Menace": 1999, "Attack of the clones": 2002, "Revenge of the Sith": 2005, "The Force Awakens": 2015, "The Last Jedi": 2017, "The Rise of Skywalker": 2019]
 
 
-let añoStarWars1 = diccionario1["Star Wars"] ?? 0
-let añoStarWars2 = diccionario1["Star Wars", default: 0]   // Estas dos lineas hacen lo mismo, pero es mejor la segundo visualmente ya que con los(??) coalescencia nula quitamos diccionario de ser una opcional a ser un Int.
+let añoStarWars1 = diccionario1["Star Wars"] ?? 0 // sabemos con los diccionarios al crearlos vacios infieren en opcionales vacios, pero de esta forma al tener el operador de coalescencia nula '??' que en el caso que no recupere un valor, devuelva 0.
+
+let añoStarWars2 = diccionario1["Star Wars", default: 0]   // Estas dos instruciones hacen lo mismo, pero es mejor la segundo visualmente ya que con los '??' (coalescencia nula), quitamos diccionario de ser una opcional a ser un Int.
+ // podemos hacer la prueba de que devuelva 0, al poner 'Star wars1' y al no existir esa clave, nos devolvera 0.
 
 
-// RESERVAR ESPACIOS EN UN DICCIOANRIO
+// RESERVAR ESPACIOS EN UN DICCIOANRIO - Tambien clases 3.6.2
 let diccionario2 = Dictionary<String,Int>(minimumCapacity: 10) // Me reserva 10 espacios [clave] en un diccionario.
 
 let palabras = ["Uno", "Dos", "Tres", "Cuatro", "Cinco"]
@@ -31,3 +33,5 @@ print(arrayJoin)
 
 
 /* En este ejemplo, la función zip combina los elementos de la secuencia fruits con los elementos de la secuencia numbers. El bucle for-in itera sobre la secuencia join y desempaqueta las tuplas en las variables fruits y numbers, imprimiendo el resultado.*/
+
+
