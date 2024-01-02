@@ -11,21 +11,28 @@ var HitsFilms85: Set = ["The Goonies", "Back to the Future", "Young Sherlock Hol
 
 // SUB-SET Y SUPER-SET
 /*Subconjunto (Sub-Set):
- Un subconjunto es una colección que contiene algunos o todos los elementos de otro conjunto, pero no necesariamente todos.*/
+ Un subconjunto es una colección que contiene todos los elementos de otro conjunto.*/
 
 /*Superconjunto (Super-Set):
-Un superconjunto es una colección que contiene todos los elementos de otro conjunto, además de posiblemente algunos más.*/
+Un superconjunto es una colección que contiene todos los elementos de otro conjunto, además de algunos más.*/
+
+/* ‼️ El circulo grande seria el Super Set y el circulo pequeño seria el Sub Set */
 
 films1985.isSubset(of: amblinFilms) // '.isSubset' si el primer Set, formar parte de 'amblimFilms' - 'films195 seria un subconjunto de amblinfilms y nos deveulve un Bool.
+// Seria: que TODAS las peliculas del primer Set estan en el segundo, y nos devuelve un False, por que solo estan algunas NO TODAS.
+
 amblinFilms.isSubset(of: films1985) // Y aqui es al reves.
 // y aqui nos da 'true' por que todo los elementos de 'amblinFilms' estan tambien en el Set de 'films1985'
 
-films1985.isSuperset(of: amblinFilms)  // AQUI
+
+films1985.isSuperset(of: amblinFilms) // aqui 'films1985' es el Set mas grande y el 'amblinFilms' el mas pequeño.
+// por que lo que tiene 'amblinFilms' estan incluidos en 'films1985' y este ultimo seria un Super Set de otro.
 
 
 // SET ESTRICTOS
 films1985.isStrictSuperset(of: amblinFilms) // Esto nos dice si es subconjunto estricto.
-amblinFilms.isStrictSubset(of: HitsFilms85) // Esto nos dice si es
+
+amblinFilms.isStrictSubset(of: HitsFilms85) // Esto nos dice que 
 
 
 // IGUALDAD
@@ -34,3 +41,6 @@ amblinFilms == HitsFilms85
 
 // DESIGUALDAD
 amblinFilms.isDisjoint(with: films1985)
+
+
+#imageLiteral(resourceName: "Captura de pantalla 2024-01-02 a las 12.59.52.png")

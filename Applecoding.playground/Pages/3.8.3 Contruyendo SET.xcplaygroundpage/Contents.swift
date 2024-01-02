@@ -29,3 +29,5 @@ var diferencia = scifiFilms.symmetricDifference(films1985) // en estos dos conju
 // La funcion de arriba me devuelve los elementos comunes de los dos conjutnos y en esta, me los quita. ‼️👈 IMPORTANTE
 
 films1985.formSymmetricDifference(scifiFilms) // esto de 'films1085' me quita los elementos dentro de 'scifiFilms'
+
+#imageLiteral(resourceName: "Captura de pantalla 2024-01-02 a las 12.59.23.png")
