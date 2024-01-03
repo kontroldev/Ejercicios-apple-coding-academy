@@ -1,28 +1,33 @@
 import Foundation
-import UIKit
+
 
 // ARRAY DE MULTIPLES TIPOS
-let matrizMixta:[Any] = ["Uno", 2, "Tres", 4.0, true]  // Tenemos que poner de manera explicita `Any` y se convierte en una Array de tipo ANY.
-                        // String, Int, String, Double, Bolean.
+let matrizMixta:[Any] = ["Uno", 2, "Tres", 4.0, true]  // Tenemos que poner de manera explicita 'Any' y se convierte en una Array de tipo ANY.
+                    // String, Int, String, Double, Bool.
 
-// 📌UPCASTING
+// UPCASTING
 //:El "upcasting" es el proceso de convertir un tipo más específico a un tipo más general en la jerarquía de tipos. Esto es comúnmente utilizado en Swift cuando deseas tratar un objeto de un tipo concreto como un objeto de un tipo más general o abstracto, como una superclase o un protocolo.
 //  let valor = matrizMixta[2]
 
-// 📌DOWNCAST
+
+// DOWNCAST
 //:Si deseas realizar un downcast de un ARRAY de elementos de tipo Any a un tipo más específico, puedes usar el operador `as` en un bucle para tratar de convertir cada elemento del arreglo a ese tipo específico.
 //: Hay dos maneras de hacer la conversion, fozada, o condicional.
 
-// 📌DOWNCAST FORZADO
-let valor = matrizMixta[2] as! String  // Conversion forzada a String ⬅️
 
-// 📌DOWNCAST OPCIONAL
-if let valor = matrizMixta[2] as? String { // Conversion condicional a String ⬅️  -  Si ponemos y cambiamos la posicion [1], al ser un Int, me dara nill por que no a podido convertir el dato a string.
+// DOWNCAST FORZADO '!'
+let valor = matrizMixta[2] as! String  // Conversion forzada a String con '!' ⬅️
+
+
+// DOWNCAST OPCIONAL '?'
+if let valor = matrizMixta[2] as? String { // Conversion condicional a String con '?' ⬅️  -  Si ponemos y cambiamos la posicion [1], al ser un Int, me dara nill por que no a podido convertir el dato 'Int' a 'String'
     valor.lowercased()  // Y al hacerlo tipo opcional, podemos acceder a las funciones del tipo `String`.
-}
+}      //.lowercased() se utiliza para convertir una cadena de caracteres (String) a minúsculas.
+// si ponemos delante del todo un 'if led' nos restaura el valor en vez de devolvernos un 'String?' opcional.
 
-// 📌UPCASTING SEGURO
-let valorAny = "Tres" as Any
+
+// UPCASTING SEGURO
+let valorAny = "Tres" as Any  // me quede aqui 👈
 
 
 // EJEMPLOS DE UPCAST Y DOWNCAST

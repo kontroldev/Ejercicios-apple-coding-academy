@@ -30,9 +30,9 @@ films1985.isSuperset(of: amblinFilms) // aqui 'films1985' es el Set mas grande y
 
 
 // SET ESTRICTOS
-films1985.isStrictSuperset(of: amblinFilms) // Esto nos dice si es subconjunto estricto.
+films1985.isStrictSuperset(of: amblinFilms) // Esto nos dice si es un 'SUPER set' es estricto.
 
-amblinFilms.isStrictSubset(of: HitsFilms85) // Esto nos dice que 
+amblinFilms.isStrictSubset(of: HitsFilms85) // Esto nos dice si e un 'SUB set' es estricto.
 
 
 // IGUALDAD
@@ -40,7 +40,8 @@ amblinFilms == HitsFilms85
 
 
 // DESIGUALDAD
-amblinFilms.isDisjoint(with: films1985)
+amblinFilms.isDisjoint(with: films1985)  // esto nos dice si los elementos que hay en el primer 'Set' tambien estan en el segundo 'Set' y nos va devolver un Bool por que si que hay elementos iguales y no sale 'false'
 
+amblinFilms.isDisjoint(with: actionFilms) // aqui nos devuelve 'true' por que no hay ningun elemento que esten dentro del uno a el otro.
 
 #imageLiteral(resourceName: "Captura de pantalla 2024-01-02 a las 12.59.52.png")
