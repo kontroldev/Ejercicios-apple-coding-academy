@@ -16,24 +16,25 @@ let matrizMixta:[Any] = ["Uno", 2, "Tres", 4.0, true]  // Tenemos que poner de m
 
 
 // DOWNCAST FORZADO '!'
-let valor = matrizMixta[2] as! String  // Conversion forzada a String con '!' ⬅️
+let valor = matrizMixta[2] as! String  // Conversion forzada a String con '!' ⬅️ y hay que vigilar que el dato que vayamos a convertir sea el que es, si fuera el mismo valor de el que era antes de subirlo a 'Any'.
 
 
 // DOWNCAST OPCIONAL '?'
 if let valor = matrizMixta[2] as? String { // Conversion condicional a String con '?' ⬅️  -  Si ponemos y cambiamos la posicion [1], al ser un Int, me dara nill por que no a podido convertir el dato 'Int' a 'String'
     valor.lowercased()  // Y al hacerlo tipo opcional, podemos acceder a las funciones del tipo `String`.
-}      //.lowercased() se utiliza para convertir una cadena de caracteres (String) a minúsculas.
+}      //.lowercased() se utiliza para convertir una cadena de caracteres 'String' a minúsculas.
 // si ponemos delante del todo un 'if led' nos restaura el valor en vez de devolvernos un 'String?' opcional.
 
 
 // UPCASTING SEGURO
-let valorAny = "Tres" as Any  // me quede aqui 👈
+let valorAny = "Tres" as Any  // aqui subimos un 'String' seleccionado a un 'Any'
 
 
 // EJEMPLOS DE UPCAST Y DOWNCAST
 let boton = UIButton(type: .system)    // Creamos un boton.
 let etiqueta = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 20)) // Creamos una etiqueta.
 etiqueta.text = "Campo"
+
 
 let campo = UITextField(frame: CGRect(x: 0, y: 100, width: 50, height: 30))  // Creamos un campo.
 campo.placeholder = "Introduzca un valor"
