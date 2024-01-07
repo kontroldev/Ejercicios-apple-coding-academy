@@ -27,7 +27,7 @@ if let valor = matrizMixta[2] as? String { // Conversion condicional a String co
 
 
 // UPCASTING SEGURO
-let valorAny = "Tres" as Any  // aqui subimos un 'String' seleccionado a un 'Any'
+let valorAny = "Tres" as Any  // aqui subimos un 'String' seleccionado a un tipo 'Any'
 
 
 // EJEMPLOS DE UPCAST Y DOWNCAST
@@ -35,11 +35,11 @@ let boton = UIButton(type: .system)    // Creamos un boton.
 let etiqueta = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 20)) // Creamos una etiqueta.
 etiqueta.text = "Campo"
 
-
 let campo = UITextField(frame: CGRect(x: 0, y: 100, width: 50, height: 30))  // Creamos un campo.
 campo.placeholder = "Introduzca un valor"
 
-let interfaz = ["boton": boton, "etiqueta": etiqueta, "campo": campo]  // Creamos un discionario de tipo cadena, de `UIButton`, `UILabel`y un `UITextField` y sera UIView.
+let interfaz = ["boton": boton, "etiqueta": etiqueta, "campo": campo]  // Creamos un discionario de tipo cadena, de 'UIButton', 'UILabel'y un 'UITextField' y sera UIView por que es el padre de todos ellos.
+
 
 let boton2 = interfaz["boton"] as! UIButton  // Aqui hacemos la conversion a `UIButton` de formaforzada, tambien se puede hacerlo de la manera correcta con `if let`. ⬇️
 
