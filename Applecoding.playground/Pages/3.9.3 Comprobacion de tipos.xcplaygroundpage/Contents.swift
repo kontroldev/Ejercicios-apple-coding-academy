@@ -1,5 +1,4 @@
 import Foundation
-import UIKit
 
 
 let boton = UIButton(type: .system)
@@ -35,5 +34,5 @@ for (_, dato) in interfaz where dato is UIButton {
 print("Hay \(botones) botones")
 
 
-// Usar el `is` es menos pesado que el `as?`, es mas eficiente si vamos a trabajar con muchos datos, comprobar primero el IS y luego hacer la conversion de datos o DownCasting.
+// Usar el 'is' es menos pesado que el 'as?', es mas eficiente si vamos a trabajar con muchos datos, comprobar primero el IS y luego hacer la conversion de datos o DownCasting.
 

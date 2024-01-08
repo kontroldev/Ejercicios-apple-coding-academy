@@ -15,6 +15,7 @@ let matrizMixta:[Any] = ["Uno", 2, "Tres", 4.0, true]  // Tenemos que poner de m
 //: Hay dos maneras de hacer la conversion, fozada, o condicional.
 
 
+// ‼️Aqui tenemos las tres formas del 'as'. ⬇️
 // DOWNCAST FORZADO '!'
 let valor = matrizMixta[2] as! String  // Conversion forzada a String con '!' ⬅️ y hay que vigilar que el dato que vayamos a convertir sea el que es, si fuera el mismo valor de el que era antes de subirlo a 'Any'.
 
@@ -34,15 +35,12 @@ let valorAny = "Tres" as Any  // aqui subimos un 'String' seleccionado a un tipo
 let boton = UIButton(type: .system)    // Creamos un boton.
 let etiqueta = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 20)) // Creamos una etiqueta.
 etiqueta.text = "Campo"
-
 let campo = UITextField(frame: CGRect(x: 0, y: 100, width: 50, height: 30))  // Creamos un campo.
 campo.placeholder = "Introduzca un valor"
 
-let interfaz = ["boton": boton, "etiqueta": etiqueta, "campo": campo]  // Creamos un discionario de tipo cadena, de 'UIButton', 'UILabel'y un 'UITextField' y sera UIView por que es el padre de todos ellos.
+let interfaz = ["boton": boton, "etiqueta": etiqueta, "campo": campo]  // Creamos un diccionario de tipo cadena, de 'UIButton', 'UILabel'y un 'UITextField' y sera UIView por que es el padre de todos ellos.
 
-
-let boton2 = interfaz["boton"] as! UIButton  // Aqui hacemos la conversion a `UIButton` de formaforzada, tambien se puede hacerlo de la manera correcta con `if let`. ⬇️
+let boton2 = interfaz["boton"] as! UIButton  // Aqui hacemos la conversion a `UIButton` de forma forzada, tambien se puede hacerlo de la manera correcta con 'if let'. ⬇️
 
 if let boton3 = interfaz["boton"] as? UIButton {  // Y aqui lo hacemos la conversion de forma opcional y la mas correctay asi podemos acceder a las sub-clases.
-    boton3
 }
