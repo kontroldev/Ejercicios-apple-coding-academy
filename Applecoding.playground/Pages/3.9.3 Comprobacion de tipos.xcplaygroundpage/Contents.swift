@@ -12,10 +12,10 @@ campo.placeholder = "Introduzca un valor"
 let interfaz = ["boton1": boton, "etiqueta": etiqueta, "campo": campo, "boton2": boton1, "boton3": boton2]
 
 
-// COMPROBACION DEL TIPO DE DATOS CON `IS`
+// COMPROBACION DEL TIPO DE DATOS CON 'is'
 for (_, dato) in interfaz {                 // Si (clave, dato) es interfaz.
     if dato is UIButton {                   // Si dato es un UIButton
-        let boton = dato as! UIButton       // El boton es igual a datos as! (conversion forzada) a UIButton
+        let boton = dato as! UIButton       // El boton es igual a datos 'as!' (conversion forzada) a 'UIButton'
     }
 }
  
