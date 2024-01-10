@@ -46,8 +46,9 @@
         <page name='3.8.4 Comparando SET'/>
         <page name='3.9.2 Conversion de tipos'/>
         <page name='3.9.3 Comprobacion de tipos'/>
-        <page name='3.10.1 + Tuplas, conceptos'/>
-        <page name='3.10.4 Asignando variables a traves de tuplas'/>
+        <page name='3.10.1 Tuplas, conceptos'/>
+        <page name='3.10.2 Descomponiendo una Tupla'/>
         <page name='3.10.3 Arrays de tuplas'/>
+        <page name='3.10.4 Asignando variables a traves de tuplas'/>
     </pages>
 </playground>
