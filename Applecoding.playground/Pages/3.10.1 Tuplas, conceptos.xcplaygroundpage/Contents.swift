@@ -17,4 +17,9 @@ pelicula.pelicula = "Inside Out"
 
 print(pelicula)
 
-//: 
+
+// TUPLAS A TRAVES DE LA ENUMERACION
+// CREANDO UNA TUPLA
+// ETIQUETAS PARA TUPLAS
+// FORMA DECLARACION
+// TUPLAS TIPOS DE DATOS POR VALOR
