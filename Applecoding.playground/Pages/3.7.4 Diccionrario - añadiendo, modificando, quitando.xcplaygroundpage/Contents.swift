@@ -1,5 +1,6 @@
 import Foundation
 
+
 var diccionario:[String:String] = ["nombre": "Julio"]  // esto es una inicializacion de un diccionario.
 
 

@@ -10,6 +10,7 @@ if let constante = opcional { // hacer una condicion, de una inicializacion de u
   print("La opcional no contiene valor")
 }
 
+
 // COMPROBAR VARIOS ENLACES OPCIONALES
 var ab:String? = "10"
 var ac:String? = "20"
