@@ -5,7 +5,7 @@ let test = [2,5,8,20,40,1,4,18]
 
 // PARAMETRO DE SALIDA:  '->' seguido del tipo de dato(sin nada mas).
 
-func sumar(numeros:[Int]) -> Int {  // esto seria un parametro de salida '-> Int' enteros.
+func sumar(numeros:[Int]) -> Int {  // esto seria un parametro de salida '-> Int'.
     var resultado = 0
     for numero in numeros {
         resultado += numero
