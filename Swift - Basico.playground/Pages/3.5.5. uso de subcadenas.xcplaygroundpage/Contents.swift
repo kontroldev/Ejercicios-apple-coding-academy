@@ -1,5 +1,5 @@
 import Foundation
-import CoreGraphics
+
 
 let cadena = "A long time ago in a galaxy far far away"
 let cadena2 = "One ring to rule them all"

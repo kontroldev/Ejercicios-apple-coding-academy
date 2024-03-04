@@ -6,7 +6,7 @@ let test = [2,5,8,20,40,1,4,18]
 
 // PARAMETRO DE SALIDA:  '->' seguido del tipo de dato(sin nada mas).
 func sumar(numeros:[Int]) -> Int {  // esto seria un parametro de salida '-> Int' y debemos de poner siempre 'return' si declaramos una variable con parametros de salida.
-    if numeros.isEmpty {
+    if numeros.isEmpty {  // '.empty'se utiliza para verificar si un valor es nulo o vacío. 
         return 0
     }
     var resultado = 0

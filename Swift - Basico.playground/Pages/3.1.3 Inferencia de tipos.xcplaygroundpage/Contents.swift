@@ -1,6 +1,7 @@
 import Foundation
 
-let constante:Int = 20 /*El lenguaje detecta automaticamente que 20 es un numero Int y asigna ese tipo ddetectado al dato a la izquierda del = */
+
+let constante:Int = 20 //El lenguaje detecta automaticamente(infiere) que 20 es un numero Int y asigna ese tipo detectando el dato a la izquierda del =
 var variable:Int = 30
 
 

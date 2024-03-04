@@ -1,6 +1,6 @@
 import Foundation
 
-// BUCLE FOT IN BASICO
+/// **BUCLE FOT IN BASICO**
 // Repite o enumera un número de veces concreta el conjunto de instrucciones de su ámbito del mismo.
 for indice in 1...10 {  // esto repite tantas veces como valores tiene este rango, el print indice.
   if indice % 2 == 0 {  // aqui entra 5 veces, pero se evalua 10 veces. - si indice resto de la division 2 es igual a 0.

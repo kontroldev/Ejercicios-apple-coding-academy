@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='4.1.1 Funciones - Concepto basico'/>
+        <page name='4.1.2 Funciones - Parametro de entrada'/>
+        <page name='4.1.3 Funciones - Parametros de salida'/>
+        <page name='4.1.4 Devolver masd e un valor'/>
+    </pages>
+</playground>

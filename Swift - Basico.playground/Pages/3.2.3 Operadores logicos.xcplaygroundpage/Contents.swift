@@ -1,10 +1,9 @@
 import UIKit
 
-// OPERADPRES LOGICOS
-/* Operador AND o &&  Los dos verdaderos
-   Operador OR o ||   Uno de los dos son verdaderos
-   Operador NOT o !   es diferente(cambia la condicion) */
-
+/// - OPERADORES LOGICOS:
+///  Operador AND o &&  Los dos verdaderos
+///  Operador OR o ||   Uno de los dos son verdaderos
+///  Operador NOT o !   es diferente(cambia la condicion.
 let i = 2
 i > 0
 i < 10

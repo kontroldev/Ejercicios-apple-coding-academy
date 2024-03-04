@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 
 var films1985: Set = ["The Goonies", "Back to the Future", "Young Sherlock Holmes", "Explorers", "Cocoon", "Out of Africa", "Legend", "The Color Purple", "Comando", "Ladyhawke", "Lifeforce", "Mad Max Beyond Thunderdrome", "Rambo II", "Silverado", "A View to a Kill", "Pee-wee's Big Adventure", "The Black Cauldron", "Rocky IV", "Re-Animator"]
@@ -45,4 +46,6 @@ amblinFilms.isDisjoint(with: films1985)  // esto nos dice si los elementos que h
 
 amblinFilms.isDisjoint(with: actionFilms) // aqui nos devuelve 'true' por que no hay ningun elemento que esten dentro del uno a el otro.
 
-#imageLiteral(resourceName: "Captura de pantalla 2024-01-02 a las 12.59.52.png")
+
+let image = UIImage( #imageLiteral(resourceName: "Captura de pantalla 2024-01-02 a las 12.59.52.png") )
+              

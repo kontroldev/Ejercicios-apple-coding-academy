@@ -1,12 +1,13 @@
 import UIKit 
 
-// datos por valor.
+
+/// #Datos por valor.
 var a = 10
 
-// datos por referencia.
+/// #Datos por referencia.
 var b = a
 
-// copia por valor.
+/// #Copia por valor.
 b = 15
 a
 b
@@ -16,8 +17,12 @@ let c = UILabel(frame: CGRect(x: 0, y: 0, width: 90, height: 100))
 
 c.text = "Etiqueta"
 c.text
+
 let d = c
 d.text
 d.text = "otro"
 c.text
 d.text
+
+
+
