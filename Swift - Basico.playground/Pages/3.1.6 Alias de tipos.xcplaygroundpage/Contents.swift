@@ -8,4 +8,5 @@ let unaCadena:String = "Swift"
 typealias Cadena = String
 
 // uso de un Typealias
-let cadenados:Cadena = "Swift 5.6"
+let cadenados:Cadena = "Swift 5.9"  // Si lo hacemos de esta manera; en vez de poner 'string' le ponemos que cadenados es de "tipo" Cadena, con que cadena es de tipo 'String' esa constante seria de tipo 'String'
+
