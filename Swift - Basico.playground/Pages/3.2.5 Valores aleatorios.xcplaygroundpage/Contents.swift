@@ -1,28 +1,28 @@
 import Foundation
 
-// VALORES ALEATORIOS ENTEROS
-Int.random(in: 0...10)  // nuemeros aleatorios enteros .Int
+/// ** VALORES ALEATORIOS ENTEROS
+Int.random(in: 0...10)  // nuemeros aleatorios enteros de 0 al 10 incluido el 10.
 
 
-// VALORES ALEATORIOS DECIMALES
+/// **VALORES ALEATORIOS DECIMALES
 Float.random(in: 0...1)
-Double.random(in: 0..<10) // Numero aleatorio con decimales .Double
+Double.random(in: 0..<10) // Numero aleatorio con decimales '.Double'.
 
 
-// VALORES BOOLEANOS ALEATORIOS
-Bool.random()  // nos devuelve esta aleatoriedad entre `true`o `false`
+/// **VALORES BOOLEANOS ALEATORIOS
+Bool.random()  // nos devuelve aletoriedad entre 'true' o 'false'.
 
 
-// ALEATORIEDAD EN CADENAS
+/// **ALEATORIEDAD EN CADENAS
 let cadena = "Hola estoy aqui"
-cadena.randomElement()   // Coje las letras de String aleoratoriamente
+cadena.randomElement()   // Coje 1 de las letras aleatoriamente.
 
 
-// RANGOS ALEATORIOS
+/// **RANGOS ALEATORIOS
 let secuencia = 1...10
-print(secuencia)
+print(secuencia)  // esto nos da la sucesion de numeros de un rango.
 
-let secuenciaDesordenada = secuencia.shuffled()  // Desordenar los valores con el .shuffled
+let secuenciaDesordenada = secuencia.shuffled()  // Desordenar los valores con el comando '.shuffled'
 print(secuenciaDesordenada)
 
 
