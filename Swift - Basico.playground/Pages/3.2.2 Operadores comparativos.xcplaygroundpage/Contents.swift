@@ -38,12 +38,11 @@ d !== c  // Negacion, igual, igual a... esto nos compara si NO son iguales unos 
 
 /// ** OPERARIO TERNARION CONDICIONAL.
 a == b ? 0 : 1  // <condicion> ? <valor 'true'> : <valor 'false'>
-/* Si la condicion de `a == b`es true, nos dara el resultado de 0 si fuera false, nos daria la condicion de 1.( mirar ejemplo 0 : 1) 👆 y abajo ejemplo por codigo 👇*/
+/* ⚠️Si la condicion de 'a == b' es true, nos dara el resultado de 0 si fuera false, nos daria la condicion de 1.( mirar ejemplo 0 : 1) 👆 y abajo ejemplo por codigo 👇*/
 // no me devuelvas true o false, si no que me devuelva despues de los dos puntos que en caso true, la primera opcion y si fuera false, la segunda opcion.
 a < b ? "a es menor que b" : "a no es meno que b"
 
 // esto es un ejemplo tambien lo mismo que arriba pero anidado. 👇
 a == b ? "a es igual que b" : a < b ? "a es menor que b" : a > b ? "a es mayor que b" : "Nada"
-
 
 

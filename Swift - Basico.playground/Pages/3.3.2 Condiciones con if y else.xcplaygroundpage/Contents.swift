@@ -19,7 +19,7 @@ if  x < 2 {
 }
 
 
-/// **IF ANIDADOS
+/// **IF ANIDADOS (else if)
 let y = 3
 let z = 4
 
@@ -47,7 +47,7 @@ if temperatura > 40 {
     print("Frio tal cual")
 }
 
-/// **OPERADORES LOGICOS EN IF
+/// **OPERADORES LOGICOS CON IF
 if temperatura > 30 && temperatura < 40 {
     print("Entre 30 y 40")
 }

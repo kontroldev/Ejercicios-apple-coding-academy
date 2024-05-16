@@ -1,18 +1,18 @@
 import Foundation
 
-// BREAK
+/// **BREAK
 let acierto = (Int(arc4random()) % 20) + 1
 print ("Buscando el numero \(acierto)")
 for indice in 1...20{
     if acierto != indice {
         print ("Buscando el numero \(acierto). Voy a por el \(indice).")
     } else {   // se crea un else para poner la funcion break, para que una vez que a encontrado el numero, rompemos el flujo del for in, de no estar el else, llegaria al 20.
-        break //⬅️ Esto es romper el fujo con BREAK
+        break //⬅️ Esto romper el fujo con BREAK
     }
 }
 
 
-// CONTINUE
+/// **CONTINUE
 let dato1 =  Int(arc4random() % 200)
 let dato2 =  Int(arc4random() % 200) 
 let dato3 =  Int(arc4random() % 200)
@@ -30,13 +30,13 @@ for i in 0...199 {
 }
 
 
-// FALLTHROUGH
+/// **FALLTHROUGH
 let x = (Int(arc4random()) % 10) + 1
 switch x {
 case 0, 1, 2, 3, 4, 5:
     print("Entre 0 y 5")
 case 6:
-    fallthrough //  si entra en la condicion del case 6 pasaria al siguente Case, lo salta!!
+    fallthrough //  si entra en la condicion del case 6 no lo evalua y salta al siguente 'case', y pasaria al case 7!
 case 7:
     print("6 o 7")
 default:

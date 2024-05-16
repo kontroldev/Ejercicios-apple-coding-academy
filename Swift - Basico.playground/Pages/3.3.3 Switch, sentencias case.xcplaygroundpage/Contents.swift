@@ -10,7 +10,7 @@ case 5: print("Suficiente")
 case 6: print("Bien")
 case 7,8: print("Notable")
 case 9: print("Sobresaliente")
-case 10: print("Matricula")
+case 10: print("Matricula") 
 default: print("No se evalua")  // si quitamos esta evaluacion nos dara error, por que si nota tiene un valor diferente a todo los case que hemos contemplado y ninguno entra, entonces pasara por el 'default'.
 }
 
