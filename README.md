@@ -12,10 +12,10 @@ Para mi este curso es uno de los mejores que eh dado para aprender en el mundo d
 - No se necesita experiencia previa en programación.
 - Puedes usar un iPad con iPadOS 14 o superior y Swift Playgrounds, o una computadora Apple con macOS 10.15 o superior y Xcode 12, 13 o superior.
 
-## Instructor:
+## Instructor y link del curso:
 [Julio César Fernández Muñoz](https://twitter.com/jcfmunoz)
 
-**Enlace al curso**: [Aprendiendo Swift 5.5 en Udemy](https://www.udemy.com/course/comenzando-con-swift/)
+[Aprendiendo Swift 5.5 en Udemy](https://www.udemy.com/course/comenzando-con-swift/)
 
 
-**Mi certificado del curso:**
+
