@@ -1,7 +1,6 @@
 import Foundation
 
 
-
 /// **DATOS VACIOS O NIL**
 //Nos salta un error por que la variable cadena, no a sido inicializada y seria un valor vacio.
 var cadena:String? // poner un '?' a un 'String', 'Int' o 'Double' al final, y ya sera valor vacio.

@@ -20,9 +20,9 @@ var inicio3 = "Existio un dia"
 
 
 /// **PREFIJOS Y SUFIJOS
-/*La propiedad 'hasSuffix' es un método que se utiliza en las cadenas de para verificar si una cadena termina con una determinada subcadena. Este método devuelve un valor booleano, true si la cadena termina con la subcadena especificada y false si no.*/
+/*La propiedad 'hasSuffix' es un método que se utiliza en las cadenas de para verificar si una cadena termina con una determinada subcadena. Este método devuelve un valor booleano, true si la cadena termina con la subcadena especificada.*/
 
-inicio1.hasPrefix("Erase") // aqui comprobamos con la propiedad '.hasPrefix' recibe un String y devuelve un Bool, que si tiene la palabra "Erase"
+inicio1.hasPrefix("Erase") /// *aqui comprobamos con la propiedad '.hasPrefix' recibe un String y devuelve un Bool, que si tiene la palabra "Erase"
   
 /*⚠️ '.hasSuffix' verifica el final de la cadena.
       '.hasPrefix' verifica el principio de la cadena.*/
@@ -32,21 +32,22 @@ inicio1.hasPrefix("Erase") // aqui comprobamos con la propiedad '.hasPrefix' rec
 
 /// *+ejemplos 👇
 let topico = "una vez"
-inicio1.hasSuffix(topico) // si inicio1("Erase una vez") tiene tambien el sufijo de topico("una vez")
+inicio1.hasSuffix(topico) // si 'inicio1' tiene el sufijo de ↖️ topico("una vez")
 inicio2.hasSuffix(topico)  // idem a 👆
 
-inicio1.hasSuffix(topico) && inicio2.hasSuffix(topico) // aqui comprobamos las dos condiciones si son verdaderas con un '&&' and.
+inicio1.hasSuffix(topico) && inicio2.hasSuffix(topico) // aqui comprobamos si las dos condiciones son verdaderas con un '&&' and.
 
 
 /// **CADENAS QUE CONTIENEN SUBCADENAS
 var inicio = "Erase una vez un pais lejano, un joven principe que vivia en un resplandeciente castillo"
 
-inicio.contains("lejano") //  si existe la palabara "lejano". Aqui con la propiedad '.contains' contine un valor en la cadena "lejano" - tambien podemos poner si contiene una cadena o un valor(un caracter) o una cadena completa
+inicio.contains("lejano") //  si existe la palabara "lejano". Aqui con la propiedad '.contains' contiene un valor en la cadena "lejano" - tambien podemos poner si contiene una cadena o un valor(un caracter) o una cadena completa
 inicio.contains("anillo")  // si existe la palabra "anillo" en inicio.
 
 
 /// **CADENA POR RANGO
-if let rango = inicio.range(of: "pais"){  // con esto podemos buscar o extraer un valor dentro de una subcadena. 
+inicio.range(of: "pais")
+if let rango = inicio.range(of: "pais"){  // con esto podemos buscar o extraer un valor dentro de una subcadena.
     print(inicio[rango])   // Esto seria un subscrip 'rango'
     let sub = inicio[rango]
 }
