@@ -12,23 +12,24 @@ compositores.insert("Howard Shore", at: 4)
 compositores.insert(contentsOf: ["Harry Gregson-Williams", "Henry Jackman", "James Horner"], at: 3)
 
 
-//ORDENAR UN ARRAY CON/SIN COPIA
+/// **ORDENAR UN ARRAY CON/SIN COPIA
 let compositoresNew = compositores.sorted()  //Ordena alfabeticamente la ARRAY y NO la modifica
 compositores
 
 compositores.sort()  //Ordena alfabeticamente la ARRAY y SI la modifica
 compositores
-/* NOTA:
-    .sorted: crea y devuelve una nueva colección ordenada sin modificar la original. La colección original permanece inalterada.
-    .sort: ordena la colección in situ, modificando la colección original. No devuelve una nueva colección.*/
+
+/// * ⚠️ NOTA:
+/*  .sorted: crea y devuelve una nueva colección ordenada sin modificar la original. La colección original permanece inalterada. Y devuelve  el valor de la array que seria 'String'
+    .sort: ordena la colección, modificando la colección original. Y nos devuelve un valor vacio 'void'.*/
 
 
-//INTERFACES FLUIDAS.
-for (indice , compositor) in compositores.sorted().reversed().enumerated() {  // podemos concatenar una llamada dentro de una llamada.
+/// **INTERFACES FLUIDAS.
+for (indice , compositor) in compositores.sorted().reversed().enumerated() {  // podemos concatenar una funcion dentro de una otra funcion.
     print(indice, compositor)
 }
 /*compositores.sorted() -> me devuelve un Array ordenado,(una copia de compositores ordenado) y de este resultado .reversed() -> y esto hara que esa copia sea descendente y de este resultado .enumerated() -> me devuelve, 'indice' y 'compositor'
- Y con esto, hacemos 3 funciones a la vez*/
+ Y con esto, hacemos 3 funciones a la vez 🤯*/
 
 compositores
 
