@@ -4,9 +4,9 @@ let dic1:[String:String] = ["Film": "Interstellar", "Director": "Chris Nolan", "
 let dic2:[String:String] = ["Film": "Jurassic World", "Dirrector": "Colin Trevorrow", "Musica": "Michael Giacchino"]
 
 
-// ARRAAY DE DICCIONARIO
+/// **ARRAY DE DICCIONARIO
 var arrayDiccionario = [[String:String]]() // para crear un array de diccionario es poniendolo entre dobles corchetes.
-// es muy parecido a los arrays de varias dimensiones, leccion 3.6.7
+// es muy parecido a los arrays de varias dimensiones, -> ⚠️ leccion 3.6.7
 
 
 arrayDiccionario.append(dic1)  //Recordar que un '.append' añade un elemento al final de una Array.
@@ -15,9 +15,9 @@ arrayDiccionario.append(dic2)
 print(arrayDiccionario) // Aqui tendriamos los dos diccionarios juntos donde las claves se repiten y se separanb como si fuera un Array de varias dimensiones.
 
 
-// LEYENDO VALORES
+/// **LEYENDO VALORES
 if let film = arrayDiccionario[1]["Film"] {  // Accedemos al valor de la posucion [1], y luego al valor del diiccionario llamado "Film".
-  // utilizamos if let para sacar los valores del diccionario.(MIrar clase anterior 3.7.5) - queremos acceder a la array de diccionario a la posicion 1 a la clave 'Film'
+  // utilizamos if let para sacar los valores del diccionario.(Mirar clase anterior 3.7.5) - queremos acceder a la array de diccionario a la posicion 1 a la clave 'Film'
     print(film)
 }
 
@@ -30,4 +30,4 @@ arrayDiccionario.append(dic3)  // aqui lo añadimos a los otros 2 que ya estan d
 
 // este ejercicio era para ver que al añadir otro diccionario y al llamar unaclave en el anterior ejemplo, hay que tener cuidado al ver que posicion de la 'clave' esta para llamarla y no equivocarnos.
 
-// esta ultima funcion sera mas comun trabajar con ellas, en lista de propiedaddes o con archivos json
+// esta ultima funcion sera mas comun trabajar con ellas, en lista de propiedaddes o con archivos .json
