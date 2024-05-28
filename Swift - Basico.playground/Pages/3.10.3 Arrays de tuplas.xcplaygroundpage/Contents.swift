@@ -1,13 +1,13 @@
 import Foundation
 
 
-// Si queres saber que es un 'Array' - 3.6.2
-// ETIQUETAS EN LAS TUPLAS EN UN ARRAY
+/// *Si queres saber que es un 'Array' - 3.6.2
+/// **ETIQUETAS EN LAS TUPLAS EN UN ARRAY
 let películas:[(película:String, año:Int, rank:Double)] = [("Tomorrowland", 2015, 9.0), ("Inside Out", 2015, 9.7), ("Interstellar", 2014, 10), ("Groundhog Day", 1993, 8.0), ("The Goonies", 1985, 8.8), ("The Dark Knight", 2008, 9.1), ("Artificial Intelligence", 2001, 9.8), ("Jurassic Park", 1993, 7.7)]
 // Pelicula: 'String', 'Int', 'Double' - son la etiquetas de una tupla.
 
 
-// ENUMERANDO UN ARRAY DE TUPLAS
+/// **ENUMERANDO UN ARRAY DE TUPLAS
 for film in películas {
     print("La pelicula \(film.película) se estreno el año \(film.año) y tiene una valoracion de \(film.rank).")
 }
@@ -20,7 +20,7 @@ for film in películas where film.rank >= 9 {  // Aqui me va sacar las peliculas
 // ⬆️ y en este bucle/funcion valoreme solo las peliculas que tengas un '9' de valoracion
 
 
-// SWITCH DE UNA TUPLA EN UN ARRAY
+/// **SWITCH DE UNA TUPLA EN UN ARRAY
 for film in películas {
     var mensaje:String
     switch film {
@@ -30,6 +30,7 @@ for film in películas {
     print(mensaje)
 }
 // ⬆️en este bucle conseguimos que solo entran en el 'case' las peliculas que son del año 2015 y se imprima con la interpolacion y en el 'case' es como si tuvieramos un = de que todas las peliculas del año 2015 imprima luego el texto, pero es mejor hacerlo con el 'case' por que asi vamos a un valor en concreto.
+
 
 for film in películas {
     var mensaje:String

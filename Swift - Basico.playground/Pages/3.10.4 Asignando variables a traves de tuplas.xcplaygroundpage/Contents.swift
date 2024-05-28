@@ -6,7 +6,7 @@ import Foundation
 //let var3 = "Programas"
 //let var4 = "O k ases"
 
-// CREANDO VARIABLES/CONSTANTES DESDE TUPLAS
+/// **CREANDO VARIABLES/CONSTANTES DESDE TUPLAS
 //let valores = ("Hola", "K ases", "Programas", "O k ases")
 //let (var1, var2, var3, var4) = valores
 
@@ -17,7 +17,7 @@ var2
 var3
 var4
 
-// INTERCAMBIO DE VALORES
+/// **INTERCAMBIO DE VALORES
 var x = 320
 var y = 200
 
