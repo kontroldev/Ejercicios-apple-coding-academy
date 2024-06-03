@@ -3,7 +3,7 @@ import Foundation
 let test = [2,5,8,20,40,1,4,18]
 let test2 = [5.4, 2.3, 10.65, 3.1415, 17.32]
 
-
+/// **CREANDO VERSIONES DE MAS DE UN TIPO DE DATO**
 func sumaMultiple(numeros:[Int]) -> (sumatorio:Int, multiplicacion:Int) {
     if numeros.isEmpty {                //👆 esto serian las etiquetas
         return (0, 0)
@@ -18,8 +18,7 @@ func sumaMultiple(numeros:[Int]) -> (sumatorio:Int, multiplicacion:Int) {
     return(resultado1, resultado2)
 }
 
-
-/// **CREANDO VERSIONES DE MAS DE UN TIPO DE DATO**
+/// **VERSIONES DIFERENTES DE PARAMETRO**
 func sumaMultiple(numeros:[Double]) -> (sumatorio:Double, multiplicacion:Double) {
     if numeros.isEmpty {
         return (0.0, 0.0)
@@ -34,6 +33,27 @@ func sumaMultiple(numeros:[Double]) -> (sumatorio:Double, multiplicacion:Double)
     return(resultado1, resultado2)
 }
 
+/// **VERSIONES DIFERENTES DE PARAMETRO
+func sumaMultiple2(numeros:[Int], operacion:String) -> Int {
+    var resultado2 = 0
+    if operacion == "*" || operacion == "/" {
+        resultado = 1
+    }
+    for numero in numeros {
+        switch operacion
+        case "+": resultado *= numero
+        case "-": resultado -= numero
+        case "*": resultado *= numero
+        case "/": resultado /= numero
+        default:()
+        }
+    }
+    return resultado2
+}
+
+let resultadoM = sumaMultiple(numeros: test, operacion: "*")
+
+/// **EJEMPLOS DE SOBRECARGA**
 let resultado = sumaMultiple(numeros: test).sumatorio
 let resul = sumaMultiple(numeros: test)
 
@@ -47,7 +67,7 @@ multiplica
 
 
 
-/// **VERSIONES DIFERENTES DE PARAMETRO**
 
-/// **EJEMPLOS DE SOBRECARGA**
+
+
 
