@@ -1,12 +1,13 @@
 import Foundation
 
 
-// Sin usar 'defer' estamos obligados a cerrar en todas las salidas antes del 'return' incluso al final de la función.
 func conexionFacebookSinDefer() {
     let errorInicio = (Int(arc4random() % 2)) == 1 ? true : false
     let errorValidacion = (Int(arc4random() % 2)) == 1 ? true : false
     let errorConexion = (Int(arc4random() % 2)) == 1 ? true : false
+
     
+    // Sin usar 'defer' estamos obligados a cerrar en todas las salidas antes del 'return' incluso al final de la función.
     print("Inicio la conexión con Facebook")
     if errorInicio {
         print("Error de inicio")
@@ -29,12 +30,13 @@ func conexionFacebookSinDefer() {
 
 conexionFacebookSinDefer()
 
-// Usando 'defer', sea cual sea la salida, siempre ejecutará este último bloque antes de salir.
+
 func conexionFacebookDefer() {
     let errorInicio = (Int(arc4random() % 2)) == 1 ? true : false
     let errorValidacion = (Int(arc4random() % 2)) == 1 ? true : false
     let errorConexion = (Int(arc4random() % 2)) == 1 ? true : false
     
+    // ⚠️ Usando 'defer', sea cual sea la salida, siempre ejecutará este último bloque antes de salir.
     defer {
         print("Cierra la conexión con Facebook")
     }
