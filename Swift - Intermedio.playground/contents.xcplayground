@@ -11,6 +11,9 @@
         <page name='4.1.8 Parametro de entrada y salida'/>
         <page name='4.1.9 Funciones variadicas'/>
         <page name='4.1.10 Defer,bloques diferidos'/>
+        <page name='4.2.1 Enumeraciones '/>
+        <page name='4.2.2 Inicializando Enum'/>
+        <page name='4.2.3 Tipificar Enums'/>
         <page name='4.4.1 Concepto basico de Struct'/>
         <page name='4.4.2 Inicializadores'/>
         <page name='4.4.3 Accediendo a los datos'/>
