@@ -8,9 +8,10 @@ func sumaMultiple(numeros:[Int]) -> (sumatorio:Int, multiplicacion:Int) { /// **
     if numeros.isEmpty {                //👆 esto serian las etiquetas
         return (0, 0)
     }
-    /// **ACCEDER A LOS COMPONENTES
+/// **ACCEDER A LOS COMPONENTES
     var resultado1 = 0
     var resultado2 = 1
+    
     for numero in numeros {
         resultado1 += numero
         resultado2 *= numero
@@ -27,5 +28,3 @@ resul.multiplicacion
 let (suma, multiplica) = sumaMultiple(numeros: test)
 suma
 multiplica
-
-

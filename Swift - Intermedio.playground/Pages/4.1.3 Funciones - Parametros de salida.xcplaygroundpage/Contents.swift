@@ -17,6 +17,8 @@ func sumar(numeros:[Int]) -> Int {  // esto seria un parametro de salida '-> Int
     return resultado  // esto nos devuelve el valor/dato de la funcion al que hemos declarado anteriormente un parametro de salida.
 }
 
+sumar(numeros: test)
+
 let resultado = sumar(numeros: test) // al ponerlo de esta manera, como que sumar lo hemos "declarado de tipo 'Int' y queda afectado tambien este como parametro de entrada
 
 sumar(numeros: [])

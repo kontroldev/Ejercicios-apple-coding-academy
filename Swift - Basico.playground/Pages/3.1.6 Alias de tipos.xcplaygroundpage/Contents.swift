@@ -4,11 +4,13 @@ import Foundation
 
 let unaCadena:String = "Swift"  // aqui la inferimos explicitamente.
 
-/// **declaracion de un Typealias
+
+/// **DECLARACION DE UN TYPEALIAS.
 typealias Cadena = String
 
-/// **uso de un Typealias
+
+/// **USO DE TYPEALIAS.
 let cadenados:Cadena = "Swift 5.9"  // Si lo hacemos de esta manera, en vez de usar el tipo 'string' le podemos poner que es del tipo: 'Cadena' y este tipo es de modo 'String'.
-// con esto lo que hacemos, que con las instruccion de typealias, inferimos el  valor.
+// con esto lo que hacemos, que con las instruccion de typealias, inferimos el  valor de String le llamamos Cadena.
 
 

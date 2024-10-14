@@ -1,5 +1,6 @@
 import Foundation
 
+
 var valor1:String  // aqui especificamos que 'valor1' es de tipo 'String'
 var valor2 = 20
 

@@ -36,7 +36,7 @@ d === c   // Igual, igual, igual a...  Esto nos compara los valores
 d !== c  // Negacion, igual, igual a... esto nos compara si NO son iguales unos valores.
 
 
-/// ** OPERARIO TERNARION CONDICIONAL.
+/// ** OPERARIO TERNARIO CONDICIONAL.
 a == b ? 0 : 1  // <condicion> ? <valor 'true'> : <valor 'false'>
 /* ⚠️Si la condicion de 'a == b' es true, nos dara el resultado de 0 si fuera false, nos daria la condicion de 1.( mirar ejemplo 0 : 1) 👆 y abajo ejemplo por codigo 👇*/
 // no me devuelvas true o false, si no que me devuelva despues de los dos puntos que en caso true, la primera opcion y si fuera false, la segunda opcion.

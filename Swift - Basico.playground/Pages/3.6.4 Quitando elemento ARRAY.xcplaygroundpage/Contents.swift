@@ -9,7 +9,7 @@ print(compositores)
 // y con '.dropLast' me quita los 3 ultimos
 
 /// **ELIMINAR UN ELEMENTO DE UNA ARRAY
-//compositores.removeLast()  // elimina el ultimo elemento.
+//compositores.removeLast() // elimina el ultimo elemento.
 compositores.removeLast(2)  // elimina los 2 ultimos.
 compositores.removeFirst()  // elimina el primero.
 compositores.remove(at: 5)  // elimina la posicion 5
