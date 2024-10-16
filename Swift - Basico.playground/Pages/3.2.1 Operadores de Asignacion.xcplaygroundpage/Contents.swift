@@ -1,5 +1,6 @@
 import Foundation
 
+
 /// **OPERADOR DE ASIGNACION '='
 let a = 2
 let b = 3
@@ -35,7 +36,7 @@ let c2 = "Otra"
 
 c1 + c2
 
-a % b /// *** operador de resto de la division
+a % b /// *** operador resto de la division
 
 d.truncatingRemainder(dividingBy: e)  //Cuando un tipo de datos es de precision decimal, se puede hacer con un contructor de tipo: 'truncatingRemainder'.
 
@@ -49,9 +50,9 @@ d.truncatingRemainder(dividingBy: e)  //Cuando un tipo de datos es de precision 
 
 
 var f = 2
-f += 2    //es lo mismo que hacer: f = f + 2
+f += 2   // es lo mismo que hacer: f = f + 2
 f -= 2
-f *= 2   // en f la vamos modificando el valor de `f`en cada operacion.
+f *= 2   //'f' la vamos modificando en cada operacion.
 f /= 2
 
 

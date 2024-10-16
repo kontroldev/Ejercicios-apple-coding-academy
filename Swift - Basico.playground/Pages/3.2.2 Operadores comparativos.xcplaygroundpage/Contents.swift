@@ -1,9 +1,11 @@
 import UIKit
 
+
 let a = 2
 let b = -3
 
 /// *** ⚠️COMPARACIONES: El resultado de cualquier comparacion entre variables o constantes,siempre es un dato Bool: true o false
+
 /// ** OPERADORES COMPARATIVOS
 a == b
 a != b // No igual
@@ -18,7 +20,7 @@ let c2 = "hola"
 
 /// ** OPERADORES DE IGUALDAD
 c1 == c2
-let x = c1 == c2  /// *** aqui tenemos una constante 'x', que tendra el valor del resultado de c1 y c2.
+let x = c1 == c2  /// *** Asignamos una constante 'x', que tendrá, el resultado de c1 y c2.
 
 
 /// **OPERADOR DE IGUALDAD DE REFERENCIA
