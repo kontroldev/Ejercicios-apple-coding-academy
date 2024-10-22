@@ -13,9 +13,9 @@ Double.random(in: 0..<10) // Numero aleatorio con decimales '.Double'.
 Bool.random()  // nos devuelve aletoriedad entre 'true' o 'false'.
 
 
-/// **ALEATORIEDAD EN CADENAS
+/// **ALEATORIEDAD EN CADENAS - STRING
 let cadena = "Hola estoy aqui"
-cadena.randomElement()   // Coje 1 de las letras aleatoriamente.
+cadena.randomElement()   // Coje 1 elemento aleatoriamente.
 
 
 /// **RANGOS ALEATORIOS

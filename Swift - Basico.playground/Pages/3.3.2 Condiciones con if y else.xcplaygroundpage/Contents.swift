@@ -33,7 +33,7 @@ if x < 2 {
 
 
 /// ** EL ULTIMO ELSE
-let temperatura = 32 //  👈 cambiar la temperatura para hacer las pruebas 'if' a valor 8 y se evaluara, el ultimo caso.
+let temperatura = 32 //  👈 cambiar la temperatura a 8, para hacer que se evalue, el ultimo caso.
 
 if temperatura > 40 {
     print("Qué calor")
@@ -47,9 +47,11 @@ if temperatura > 40 {
     print("Frio tal cual")
 }
 
+
 /// **OPERADORES LOGICOS CON IF
 if temperatura > 30 && temperatura < 40 {
     print("Entre 30 y 40")
 }
 
+// SI las dos condiciones con true, hará el print.
 

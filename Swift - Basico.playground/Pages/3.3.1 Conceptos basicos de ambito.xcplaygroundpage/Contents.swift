@@ -1,7 +1,8 @@
  import Foundation
  
+
 var a = 10
-let b = 20
+let b = 20 // descomentar para ejemplo.
  
 /// **CREANDO UN AMBITO
 ///  *** 'b' esta declarado dentro de este ambito y solo funciona dentro de el, y se llama fuera de el, nos dara error.

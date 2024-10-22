@@ -8,7 +8,7 @@ var cadena:String? // poner un '?' a un 'String', 'Int' o 'Double' al final, y y
 // Este 'string' es lo mismo como si hicieramos esto: var cadena = nill
 //⚠️ las constantes no sirven para las opcionales!!
 
-print(cadena)
+print(cadena!)
 
 /// **EXTRAER UN VALOR OPCIONAL**
 cadena = "Hola opcional"

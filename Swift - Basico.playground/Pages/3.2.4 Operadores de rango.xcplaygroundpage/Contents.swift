@@ -11,13 +11,13 @@ import Foundation
 
 /// **RANGOS DE VALORES NO NUMERICOS
 let rango = "a"..."z"  // esto te da todo el abecedario de la A a la Z.
-rango.contains("f")  // esto te dice si la F esta dento del rango. - la funcion `.contains` nos dice si hay un elemento X, nos cuenta si hay la letra 'f'
+rango.contains("f")  // El metodo '.contains' nos devuelve Bool si hay un elemento.
 rango.contains("A")
 
 
 /// **RANGOS DE UN SOLO LADO o INFINITOS
-...3 // rango desde la el numero menor del ambito hasta el numero 3
-3... // desde el 3 hasta el infinito
+...3 // rango desde el numero menor del ambito hasta el numero 3.
+3... // desde el 3 hasta el infinito.
 
 
 /// **RANGO DE UN SOLO LADO
