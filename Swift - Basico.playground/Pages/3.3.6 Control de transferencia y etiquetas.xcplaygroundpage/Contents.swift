@@ -51,7 +51,7 @@ default:
 }
 
 
-///**ETIQUETAS EN LOS BUCLES**
+/// **ETIQUETAS EN LOS BUCLES**
 var valor2:Int = -1
 var intentos = 0
 let acierto2 = Int(arc4random()) % 20

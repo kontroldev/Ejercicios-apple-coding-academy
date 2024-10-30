@@ -3,17 +3,16 @@ import Foundation
 
 var opcional: String?
 
-//opcional = "Hola"  // si descomentamos este comentario entraria en la primera condicion, y de esta manera entraria por la primera condición.👇
+//opcional = "Hola"  // ⚠️ Si descomentamos este comentario entraria en la primera condicion, por que tiene un valor.
 
-/// **CONCEPTO DE ENLACE**
 
-//ENLACE OPCIONAL - comprobar mediante un 'if let' que un dato opcional NO es 'nil' para asi capturarlo en una nueva constante desempaquetado de forma segura.
-if let constante = opcional { // hacer una condicion, de una inicializacion de una constante = al valor opcional.
+///**ENLACE OPCIONAL** - 👉 comprobar mediante un 'if let' que un dato opcional NO es 'nil' para asi capturarlo en una nueva constante desempaquetado de forma segura.
+
+if let constante = opcional { // Si opcional, se asigna a constante, significa que hay un valor.
     print(constante)
-} else {
-  print("La opcional no contiene valor")
+} else { // SI sale por aqui, no contiene valor.
+    print("La opcional no contiene valor")
 }
-
 
 
 var ab:String? = "10"
@@ -23,21 +22,24 @@ var ae:String? = "30"
 
 //Numero de variables opcionales⬇️
 
+
 /// **COMPROBAR VARIOS ENLACES OPCIONALES
 if let ab = ab {   // se puede usar el mismo nombre de la constante que declaremos, a la constante que estamos usando de igualacion.
     if let ac = ac {
         if let ad = ad {
-            if let ae = ae {                    /// **LA PIRAMIDE DEL MAL**
+            if let ae = ae {                    ///** ⚠️LA PIRAMIDE DEL MAL⚠️**
                 print(ab, ac, ad, ae)
             }
         }
     }
 }
 
+
 /// **CONCATENANDO ENLACES**
 
 // hecho de esta manera es mas efectiva. ⬇️
-if let ab = ab, let ac = ac, let ad = ad, ad != 0, let ae = ae {  // Haciendo una condicion mas, despues del desampequetado el valor `ad` y todos los valores tienes que ser de verdadero exclusivo es cuando entrarar en el ambito y hara el print.
+if let ab = ab, let ac = ac, let ad = ad, ad != 0, let ae = ae {  // Haciendo una condicion mas, despues del desampequetado el valor `ad` y todos los valores tienes que ser de verdadero exclusivo es cuando entraria en el ambito y hara el print.
+    
     print(ab, ac, ad, ae)
     ad  // ad es ugual a un Int
 }
@@ -46,6 +48,4 @@ if let ab = ab, let ac = ac, let ad = ad, ad != 0, let ae = ae {  // Haciendo un
 // Hacer una prueba de poner `ad`fuera del ambito de este ultimo `if let`, saldra que es un String y si lo ponemos dentro nos saldra que es una opcional
 
 ad // ad es aqui un Int?
-
-
 
