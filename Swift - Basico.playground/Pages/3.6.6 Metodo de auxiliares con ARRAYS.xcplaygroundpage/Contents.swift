@@ -20,7 +20,7 @@ compositores.sort()  //Ordena alfabeticamente la ARRAY y SI la modifica
 compositores
 
 /// * ⚠️ NOTA:
-/*  .sorted: crea y devuelve una nueva colección ordenada sin modificar la original. La colección original permanece inalterada. Y devuelve  el valor de la array que seria 'String'
+/*  .sorted: crea y devuelve una nueva colección ordenada sin modificar la original. La colección original permanece inalterada, Y devuelve  el valor de la array que seria 'String'
     .sort: ordena la colección, modificando la colección original. Y nos devuelve un valor vacio 'void'.*/
 
 

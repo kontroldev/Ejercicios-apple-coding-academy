@@ -33,7 +33,7 @@ array
 
 
 /// **INTERCAMBIAR DATOS
-array.swapAt(10, 5) // Intercambiar los elementos de un array en la posiciones específicada, cambia los elemento de la posicion 5, a la 10.(Ver ejemplo 👇)
+array.swapAt(5, 10) // Intercambiar los elementos de un array en la posiciones específicada, cambia los elemento de la posicion 5, a la 10.(Ver ejemplo 👇)
 array
 
 
