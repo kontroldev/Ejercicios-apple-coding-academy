@@ -1,18 +1,20 @@
 import Foundation
-//import Darwin
+import Darwin
 
 
 var ab:String?
 ab = "Valor opcional"
 
+
 /// **ACCEDER A UN DATO EN UN AMBITO ENLACE**
 
-/// *** ⚠️ GUARD: El 'guard let', entra en su ambito SOLO cuando la condicion NO se cumpla.
+/// *** ⚠️ GUARD: El 'guard let', entra en el ambito SOLO cuando la condicion NO se cumpla. Es un guardia de seguridad.
 guard let vab = ab else {
     throw NSError(domain: "Opcional vacia", code: 0, userInfo: nil)
 }
 
-// ⚠️ El cuerpo del 'guard' no puede pasar a través, considere usar 'return' o 'break' para salir del ambito.
+/// ⚠️ `guard let` evalúa si la variable opcional tiene un valor.
+/// Si NO tiene un valor (`nil`), entra en el bloque `else` y debe finalizar con `throw`, `return` o `break`.
 // En estos caso lo que tenemos que hacer es poner un control de trasnferencia(3.3.6)
 
 
@@ -23,12 +25,12 @@ guard let vab = ab else {
 
 
 /// **GUARD CON ENLACES CONCATENADOS**
-var ac:Int?
-var ae:String?
-var ad:Double?
+var ac: Int? = 10
+var ae: String? = "Texto"
+var ad: Double? = 2.5
 
 guard let ab = ab, let ac = ac, let ae = ae, let ad = ad, ad != 0 else {
-    throw NSError(domain: "Opcionales vacias", code: 0, userInfo: nil)
+    throw NSError(domain: "Opcionales vacías", code: 0, userInfo: nil)
 }
 
 print(ab, ac, ad, ae)

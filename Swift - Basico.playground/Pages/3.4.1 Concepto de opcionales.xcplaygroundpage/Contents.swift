@@ -6,15 +6,14 @@ import Foundation
 var cadena:String? // poner un '?' a un 'String', 'Int' o 'Double' al final, ya será valor opcional.
 
 // Este 'string' es lo mismo como si hicieramos esto: var cadena = nill
-///*** ⚠️ Las constantes no sirven para las opcionales!!
-
+///*** ⚠️ Las constantes no sirven para las opcionales!! ⚠️
+ 
 
 /// **EXTRAER UN VALOR OPCIONAL**
 cadena = "Hola opcional"  // le asignamos un valor, y pasa de ser nil a tener un valor.
 
-
 /// **DESEMPAQUETADO IMPLICITO**
-print(cadena!)  // Poner la "!" para desempaquetar los opcionales si este tuviera un valor.
+print(cadena!)  // Poner la "!" para desempaquetar los opcionales si este tuviera un valor, para que no saliera "Opcional("Hola opcional")
 
 ///*** ⚠️ Podemos saltar el error de opcional de tres maneras.
 // 1- cohalescencia nula '??'.
@@ -23,4 +22,4 @@ print(cadena!)  // Poner la "!" para desempaquetar los opcionales si este tuvier
 
 
 /// **NIL SOLO EN OPCIONALES
-//var cadena:String? = nil // solo podemos usar nil dalos vacia cuando estamos con una opciponal. '?'.
+//var cadena:String? = nil // solo podemos asignar nil, cuando estamos trabajando con un dato opcional '?'.
