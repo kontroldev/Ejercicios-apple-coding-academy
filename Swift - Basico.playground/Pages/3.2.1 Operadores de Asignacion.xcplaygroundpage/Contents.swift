@@ -24,9 +24,9 @@ c * a
 a / b
 d / e
 
-///  ** ⚠️ a / e -> el operador binario '/' no puede ser aplicado a operandos de tipo 'Int' ni 'Double'
+///  *** ⚠️ a / e -> el operador binario '/' no puede ser aplicado a operandos de tipo 'Int' ni 'Double'
    //2 / 2.3
-/// **⬇️ REGLA: No se puede usar un operador aritmetico entre tipo diferentes, aunque estos sean numericos y hay que convertir uno de ellos.
+/// ***⬇️ REGLA: No se puede usar un operador aritmetico entre tipo diferentes, aunque estos sean numericos y hay que convertir uno de ellos.
 
 Double(a) / e  // contructor del tipo, para que la operacion se pueda hacer, ya que hay que convertirlo.
 

@@ -1,13 +1,14 @@
 import Foundation
-//import Darwin
+import Darwin
 
 
 var ab:String?
 ab = "Valor opcional"
 
+
 /// **ACCEDER A UN DATO EN UN AMBITO ENLACE**
 
-/// *** ⚠️ GUARD: El 'guard let', entra en su ambito SOLO cuando la condicion NO se cumpla.
+/// *** ⚠️ GUARD: El 'guard let', entra en el ambito SOLO cuando la condicion NO se cumpla. Es un guardia de seguridad.
 guard let vab = ab else {
     throw NSError(domain: "Opcional vacia", code: 0, userInfo: nil)
 }
