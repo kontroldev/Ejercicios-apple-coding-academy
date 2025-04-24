@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Ejemplo de comentarios'/>
+        <page name='3.1.3 Inferencia de tipos'/>
+        <page name='3.1.4 Tipos por valor y por referencia'/>
+        <page name='3.1.5 Tipos de datos no vacios'/>
+        <page name='3.1.6 Alias de tipos'/>
+        <page name='3.2.1 Operadores de Asignacion'/>
+        <page name='3.2.2 Operadores comparativos'/>
+        <page name='3.2.3 Operadores logicos'/>
+        <page name='3.2.4 Operadores de rango'/>
+        <page name='3.2.5 Valores aleatorios'/>
+        <page name='3.3.1 Conceptos basicos de ambito'/>
+        <page name='3.3.2 Condiciones con if y else'/>
+        <page name='3.3.3 Switch, sentencias case'/>
+        <page name='3.3.4 Bucles for in'/>
+        <page name='3.3.5 Bucles While y repeat while'/>
+        <page name='3.3.6 Control de transferencia y etiquetas'/>
+        <page name='3.4.1 Concepto de opcionales'/>
+        <page name='3.4.2 Enlaces opcionales'/>
+        <page name='3.4.3 GUARD'/>
+        <page name='3.4.4 Operador de coalescencia nula'/>
+        <page name='3.5.2 Interpolacion de cadenas'/>
+        <page name='3.5.3 Concatenando'/>
+        <page name='3.5.4 Contando y buscando'/>
+        <page name='3.5.5. uso de subcadenas'/>
+        <page name='3.5.6 uso de caracteres Unicode y Emoji'/>
+        <page name='3.5.7 Metodos de ayuda en cadenas'/>
+        <page name='3.5.8 Cadenas en bruto y expresiones regulares'/>
+        <page name='3.6.2 Arrays, creando e inicializando'/>
+        <page name='3.6.3 Añadiendo elementos a una Array'/>
+        <page name='3.6.4 Quitando elemento ARRAY'/>
+        <page name='3.6.5 Buscando y enumerendo'/>
+        <page name='3.6.6 Metodo de auxiliares con ARRAYS'/>
+        <page name='3.6.7 Arrays de mas dimensiones'/>
+        <page name='3.6.8 Novedades ARRAY en swift 5.1'/>
+        <page name='3.7.2 Conceptos basicos, Diccionario.'/>
+        <page name='3.7.3 Accediendo a los datos  DICCIONARIO'/>
+        <page name='3.7.4 Diccionrario - añadiendo, modificando, quitando'/>
+        <page name='3.7.5 Diccionario - iterando sobre un diccionario'/>
+        <page name='3.7.6 Diccionarios - Arrays de ciccionarios'/>
+        <page name='3.7.7 Novedades diccionario Swift5.1'/>
+        <page name='3.8.2 Inicializando los SET'/>
+        <page name='3.8.3 Contruyendo SET'/>
+        <page name='3.8.4 Comparando SET'/>
+        <page name='3.9.2 Conversion de tipos'/>
+        <page name='3.9.3 Comprobacion de tipos'/>
+        <page name='3.10.1 Tuplas, conceptos'/>
+        <page name='3.10.2 Descomponiendo una Tupla'/>
+        <page name='3.10.3 Arrays de tuplas'/>
+        <page name='3.10.4 Asignando variables a traves de tuplas'/>
+    </pages>
+</playground>
